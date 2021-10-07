@@ -1,0 +1,57 @@
+portraits = {
+   tau3 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Tau/tau3.dds" }
+   tau_general1 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Tau/tau_general1.dds" }
+}
+
+portrait_groups = {
+	Tau = {
+				default = tau3
+		
+		pop = {
+			add = {
+				portraits = {
+					tau3
+					}
+				}
+			}
+		}
+jaypees_aquatic = {
+default = tau3
+game_setup = {
+add = {
+portraits = {
+tau3
+}
+}
+}
+species = {
+add = {
+portraits = {
+tau3
+}
+}
+}
+pop = {
+add = {
+portraits = {
+tau3
+}
+}
+}
+leader = {
+add = {
+portraits = {
+tau3
+}
+}
+}
+ruler = {
+add = {
+portraits = {
+tau_general1
+tau3
+}
+}
+}
+}
+}

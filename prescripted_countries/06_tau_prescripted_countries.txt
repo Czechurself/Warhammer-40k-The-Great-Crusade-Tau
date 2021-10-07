@@ -1,0 +1,66 @@
+
+"Tau Empire"
+={
+	key="Tau Empire"
+	ship_prefix="TIS"
+	species={
+		class="TAU"
+		portrait="tau3"
+		name="Tau"
+		plural="Tau"
+		adjective="Tau"
+		name_list="Tau"
+		trait="trait_natural_engineers"
+		trait="trait_sedentary"
+		trait="trait_intelligent"
+	}
+	name="Tau Empire"
+	adjective="Tau"
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	planet_name="Tau"
+	planet_class="pc_arid"
+	system_name="Tau"
+	initializer=""
+	graphical_culture="tau_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="Tau"
+			file="Tau.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"null"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ksi'm'yen"
+		portrait="tau_general1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Chief Harmonizer"
+		ruler_title_female="Chief Harmonizer"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_idealistic_foundation"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_common_ground"
+} 
